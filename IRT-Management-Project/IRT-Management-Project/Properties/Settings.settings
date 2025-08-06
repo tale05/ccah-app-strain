@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IRT_Management_Project.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TextBox1Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nhập tài khoản...</Value>
+    </Setting>
+    <Setting Name="TextBox2Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nhập mật khẩu...</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

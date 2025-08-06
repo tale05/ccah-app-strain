@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E58ED798-567C-4189-85FD-ADE8EF09EAA0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DTO</RootNamespace>
+    <AssemblyName>DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiBillDetailDTO.cs" />
+    <Compile Include="ApiBillDTO.cs" />
+    <Compile Include="ApiClassesDTO.cs" />
+    <Compile Include="ApiCustomerDTO.cs" />
+    <Compile Include="ApiIsolatorStrainDTO.cs" />
+    <Compile Include="ApiOrderDetailDTO.cs" />
+    <Compile Include="ApiOrdersDTO.cs" />
+    <Compile Include="ApiScienceNewspaper.cs" />
+    <Compile Include="BillCustomDTO.cs" />
+    <Compile Include="BillDetailCustomDTO.cs" />
+    <Compile Include="BillDetailToExportPdfDTO.cs" />
+    <Compile Include="ClassPhylumDTO.cs" />
+    <Compile Include="ApiConditionalStrainDTO.cs" />
+    <Compile Include="ContentWorkCustomDTO.cs" />
+    <Compile Include="ApiContentWorkDTO.cs" />
+    <Compile Include="ApiEmployeeDTO.cs" />
+    <Compile Include="ContentWorkToAddUpdateDTO.cs" />
+    <Compile Include="CustomerCustomDTO.cs" />
+    <Compile Include="CustomerToAddDTO.cs" />
+    <Compile Include="EmployeeCustomDTO1.cs" />
+    <Compile Include="ApiGenusDTO.cs" />
+    <Compile Include="ApiInventoryDTO.cs" />
+    <Compile Include="ApiPartnerDTO.cs" />
+    <Compile Include="ApiPhylumDTO.cs" />
+    <Compile Include="ApiIdentifyStrainDTO.cs" />
+    <Compile Include="EmployeeCustomDTO2.cs" />
+    <Compile Include="ManageAccountCustomerDTO.cs" />
+    <Compile Include="ManageAccountEmployeeDTO.cs" />
+    <Compile Include="ScienceNewspaperCustomDTO.cs" />
+    <Compile Include="StatisticsResultDTO.cs" />
+    <Compile Include="Excel\ContentWorkExcelDTO.cs" />
+    <Compile Include="Excel\PartnerExcelDTO.cs" />
+    <Compile Include="Excel\ProjectContentExcelDTO.cs" />
+    <Compile Include="Excel\ProjectExcelDTO.cs" />
+    <Compile Include="InventoryDTO.cs" />
+    <Compile Include="OrderDetailDTO.cs" />
+    <Compile Include="OrderDetailToAddBillDetailDTO.cs" />
+    <Compile Include="OrdersDTO.cs" />
+    <Compile Include="PartnerDTO.cs" />
+    <Compile Include="ProjectContentCustomDTO.cs" />
+    <Compile Include="ApiProjectContentDTO.cs" />
+    <Compile Include="ProjectContentCustom1DTO.cs" />
+    <Compile Include="ProjectCustomDTO.cs" />
+    <Compile Include="ApiProjectDTO.cs" />
+    <Compile Include="ProjectCustomIdAndNameDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ApiProvincesDTO.cs" />
+    <Compile Include="QuantityStrainDTO.cs" />
+    <Compile Include="ApiRoleForEmployeeDTO.cs" />
+    <Compile Include="ApiSpeciesDTO.cs" />
+    <Compile Include="ApiStrainApprovalHistoryDTO.cs" />
+    <Compile Include="StrainCustomDetailDTO.cs" />
+    <Compile Include="StrainCustomDTO.cs" />
+    <Compile Include="StrainCustomExcelDTO.cs" />
+    <Compile Include="ApiStrainDTO.cs" />
+    <Compile Include="StrainCustomWithIdDetailDTO.cs" />
+    <Compile Include="StrainToAddDTO.cs" />
+    <Compile Include="TaskProgressEmployeeDTO.cs" />
+    <Compile Include="TaskProgressEmployeeUpdateStatusDTO.cs" />
+    <Compile Include="TaskProgressEmployeeUploadFileDTO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
