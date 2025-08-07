@@ -1,6 +1,8 @@
 ## 🏢 Introduction
 
-This WinForms C# application is developed for managing the internal operations of IRT Institute (Main Office: 93 Tan Ky Tan Quy, Tan Son Nhi Ward, Tan Phu District, Ho Chi Minh City).
+This WinForms C# application is developed for managing the internal operations of IRT Institute.
+
+Main Office: 93 Tan Ky Tan Quy, Tan Son Nhi Ward, Ho Chi Minh City.
 
 The software utilizes a C# Windows Forms interface, SQL Server for data storage, and communicates with a back-end Web API (ccah-web-api). Additionally, IRT also operates a separate product introduction website at ccah.edu.vn.
 
@@ -63,7 +65,7 @@ The software utilizes a C# Windows Forms interface, SQL Server for data storage,
 
 * 🏢 **Full Name**: Institute of Application Research and Technology Transfer – HUFI
 * 🆔 **Short Name**: IRT
-* 📍 **Address**: 93 Tan Ky Tan Quy, Tan Phu District, HCMC
+* 📍 **Address**: 93 Tan Ky Tan Quy, Tan Son Nhi Ward, Ho Chi Minh City
 
 ### 🔧 Areas of Expertise:
 
