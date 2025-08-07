@@ -1,140 +1,143 @@
 ## 🏢 Introduction
 
-This WinForms C# application is developed for managing the internal operations of **IRT Institute** (Main Office: 93 Tan Ky Tan Quy, Tan Son Nhi Ward, Tan Phu District, Ho Chi Minh City).
+This **C# WinForms** application is designed to manage internal operations at **IRT Institute** (93 Tan Ky Tan Quy, Tan Phu District, HCMC). It integrates a modern UI, secure database, and a powerful backend API. IRT also maintains a public product website at [ccah.edu.vn](http://ccah.edu.vn).
 
-The software utilizes a **C# Windows Forms** interface, **SQL Server** for data storage, and communicates with a back-end **Web API** (`ccah-web-api`). Additionally, IRT also operates a separate **product introduction website** at [ccah.edu.vn](http://ccah.edu.vn).
-
+---
 
 ## 💡 Key Features
 
 ### 🔐 System Functions:
 
-* User Management
-* Login / Logout
-* Password Change (encrypted with **BCrypt**)
-* Database Backup / Restore
+* 👤 User Management
+* 🔐 Secure Login / Logout
+* 🔄 Password Change (via **BCrypt** encryption)
+* 💾 Database Backup & Restore
 
-### 🧾 Business Modules:
+### 📚 Business Modules:
 
-* Employee Management
-* Research Project Management
-* Scientific Publications Management
-* Customer Management
-* Research Product Management
-* Product Review and Approval
-* Product Code Generation
-* Statistical Reports
+* 👨‍💼 Employee Management
+* 🧪 Research Project Tracking
+* 📚 Scientific Publications
+* 🧍 Customer Management
+* 🧫 Product Management
+* ✅ Product Review & Approval
+* 🏷️ Product Code Generator
+* 📊 Statistical Reporting
 
+---
 
 ## 👥 Users & Roles
 
-* **Customers**: Search and order microalgae products online.
-* **Researchers**: Update and track product and research data.
-* **Managers**: Approve and code products, analyze statistics, handle orders, and oversee project progress.
+* 🛒 **Customers**: Search & order microalgae products
+* 🧑‍🔬 **Researchers**: Manage data & products
+* 👨‍💼 **Managers**: Approve, analyze, and monitor operations
 
+---
 
-## ⚙️ Technologies Used
+## ⚙️ Tech Stack
 
-* **💻 C#, WinForms, ASP.NET**
-* **🛢️ SQL Server** (Database design & management)
-* **🔐 BCrypt.Net-Next** (Password encryption)
-* **📈 LiveCharts** (Data visualization)
-* **📄 PDFSharp** (PDF generation and manipulation)
-* **🧩 Newtonsoft.Json** (JSON processing)
-* **🌐 Web API Integration** (For connecting backend & frontend)
-* **🎨 Guna UI Framework** (Modern UI components)
-* **🌿 ReactJS** (Frontend of the product showcase website)
-* **📊 UML via Rational Rose** (System design)
+* 💻 **C#, WinForms, ASP.NET**
+* 🗄️ **SQL Server** (Data storage & queries)
+* 🔐 **BCrypt.Net-Next** (Password encryption)
+* 📊 **LiveCharts** (Dynamic charts)
+* 📄 **PDFSharp** (PDF creation)
+* 🧩 **Newtonsoft.Json** (JSON handling)
+* 🌐 **Web API** for backend/frontend link
+* 🎨 **Guna UI** (Modern UI elements)
+* 🌿 **ReactJS** (Public website frontend)
+* 🧠 **UML with Rational Rose** (System design)
 
+---
 
-## 📋 Research Methodology
+## 🔬 Research Methodology
 
-* Survey of existing management processes through interviews and data collection
-* UML-based analysis and design (Use Case, Class, Activity diagrams)
-* Website development using **ReactJS** and **ASP.NET** for order management
+* 📋 Internal workflow surveys & interviews
+* 📐 UML Design (Use Case, Class, Activity Diagrams)
+* 🌐 Website developed in **ReactJS + ASP.NET**
 
+---
 
 ## 🏛️ About IRT
 
-* **Full name**: Institute of Application Research and Technology Transfer – HUFI
-* **Short name**: IRT
-* **Address**: 93 Tan Ky Tan Quy, Tan Son Nhi Ward, Tan Phu District, Ho Chi Minh City
+* 🏢 **Full Name**: Institute of Application Research and Technology Transfer – HUFI
+* 🆔 **Short Name**: IRT
+* 📍 **Address**: 93 Tan Ky Tan Quy, Tan Phu District, HCMC
 
-### 🔧 Fields of Activity:
+### 🔧 Areas of Expertise:
 
-* Scientific & technological R\&D
-* Consulting & management services
-* Technical inspection & analysis
-* Education support services
-* Market research, business support & promotion
-* Transfer & commercialization of research outcomes
+* 🔬 R\&D in Science & Tech
+* 📊 Consulting & Management
+* 🔎 Technical Inspection
+* 🎓 Educational Support
+* 📈 Market Research & Promotion
+* 🔁 Tech Transfer & Commercialization
 
 ### 🧭 Mission:
 
-* Enhance quality of research, training, and tech transfer
-* Support HUFI's mission in science & technology
-* Commercialize research for community and business benefits
+* 🔍 Enhance quality of research & training
+* 🎯 Support HUFI’s strategic goals
+* 💼 Deliver value through innovation & community impact
 
+---
 
-## 📸 Example Screenshot
+## 📸 Sample Screenshots
 
-Login Interface
+### 🔐 Login Interface
 
-![Image 1](https://drive.google.com/uc?export=view&id=1TEbQCU7HMVYXgtYYEtjYR6UzNnX0Klg0)
+![Image 1](https://drive.google.com/uc?export=view\&id=1TEbQCU7HMVYXgtYYEtjYR6UzNnX0Klg0)
 
-Main Dashboard Interface
+### 🧭 Main Dashboard
 
-![Image 2](https://drive.google.com/uc?export=view&id=1wIg4cCQ6BvTGuWwuZIzci1zL-GbyGMbb)
+![Image 2](https://drive.google.com/uc?export=view\&id=1wIg4cCQ6BvTGuWwuZIzci1zL-GbyGMbb)
 
-Product List Interface
+### 🧾 Product List
 
-![Image 3](https://drive.google.com/uc?export=view&id=1VXj9wqA_QD8U4yt19x-LnqWE8xLtBduT)
+![Image 3](https://drive.google.com/uc?export=view\&id=1VXj9wqA_QD8U4yt19x-LnqWE8xLtBduT)
 
-Add New Product Interface
+### ➕ Add New Product
 
-![Image 4](https://drive.google.com/uc?export=view&id=1uNJNfdPVOtH6-m9lT3foib1ilXYYpbvN)
+![Image 4](https://drive.google.com/uc?export=view\&id=1uNJNfdPVOtH6-m9lT3foib1ilXYYpbvN)
 
-Product Information Management Interface
+### 🛠️ Manage Product Info
 
-![Image 5](https://drive.google.com/uc?export=view&id=1nKZ4W2Y2Ts8wSsKSCYbMQnJRQpDyKtvP)
+![Image 5](https://drive.google.com/uc?export=view\&id=1nKZ4W2Y2Ts8wSsKSCYbMQnJRQpDyKtvP)
 
-Product Code Generation Interface
+### 🏷️ Generate Product Code
 
-![Image 6](https://drive.google.com/uc?export=view&id=1tG4U-TWGLIoaqkR7e1sbmWUZsFGlAB3j)
+![Image 6](https://drive.google.com/uc?export=view\&id=1tG4U-TWGLIoaqkR7e1sbmWUZsFGlAB3j)
 
-Project List Interface
+### 📋 Project List
 
-![Image 7](https://drive.google.com/uc?export=view&id=1ReqHEnyGHvfgnmjD4m-_eympJs7L966s)
+![Image 7](https://drive.google.com/uc?export=view\&id=1ReqHEnyGHvfgnmjD4m-_eympJs7L966s)
 
-Project Details Interface (1)
+### 📁 Project Details (1)
 
-![Image 8](https://drive.google.com/uc?export=view&id=1HTfV0uq64BkLfZBVj-R3n-hh_ZapAkSL)
+![Image 8](https://drive.google.com/uc?export=view\&id=1HTfV0uq64BkLfZBVj-R3n-hh_ZapAkSL)
 
-Project Details Interface (2)
+### 📁 Project Details (2)
 
-![Image 9](https://drive.google.com/uc?export=view&id=1g88uyEPRbYkStO_GV3DKQ8xZUEFOlc_G)
+![Image 9](https://drive.google.com/uc?export=view\&id=1g88uyEPRbYkStO_GV3DKQ8xZUEFOlc_G)
 
-Task Progress Management Interface
+### 📆 Task Progress Tracking
 
-![Image 10](https://drive.google.com/uc?export=view&id=1qOgz6Y0QJ3qEw9UqGK603jRQkxWylXat)
+![Image 10](https://drive.google.com/uc?export=view\&id=1qOgz6Y0QJ3qEw9UqGK603jRQkxWylXat)
 
-Add New Research Project Interface
+### ➕ Add New Research Project
 
-![Image 11](https://drive.google.com/uc?export=view&id=152VsBN9KqAcSqL7cGtP2FaM7X3ilB-iZ)
+![Image 11](https://drive.google.com/uc?export=view\&id=152VsBN9KqAcSqL7cGtP2FaM7X3ilB-iZ)
 
-Add Project Details Interface (1)
+### 🧾 Add Project Details (1)
 
-![Image 12](https://drive.google.com/uc?export=view&id=1BWXZINRkwgQwl9apRqV_XhEW_vX_CKwi)
+![Image 12](https://drive.google.com/uc?export=view\&id=1BWXZINRkwgQwl9apRqV_XhEW_vX_CKwi)
 
-Add Project Details Interface (2)
+### 🧾 Add Project Details (2)
 
-![Image 13](https://drive.google.com/uc?export=view&id=1eT_ZGps6V1fTr0EtQbly5ThIqoJPGgHn)
+![Image 13](https://drive.google.com/uc?export=view\&id=1eT_ZGps6V1fTr0EtQbly5ThIqoJPGgHn)
 
-Statistics and Reports Interface
+### 📈 Statistics & Reporting
 
-![Image 14](https://drive.google.com/uc?export=view&id=1CAq_kGhBqlR4NPGEkuEdJwzRJYThZge3)
+![Image 14](https://drive.google.com/uc?export=view\&id=1CAq_kGhBqlR4NPGEkuEdJwzRJYThZge3)
 
+---
 
-## 🙏 Thank you for visiting!
-
-Feel free to explore the code, suggest improvements, or contribute to this project!
+## 🙏 Thank You for Visiting!
