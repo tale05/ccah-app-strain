@@ -1,6 +1,8 @@
 ## 🏢 Introduction
 
-This **C# WinForms** application is designed to manage internal operations at **IRT Institute** (93 Tan Ky Tan Quy, Tan Phu District, HCMC). It integrates a modern UI, secure database, and a powerful backend API. IRT also maintains a public product website at [ccah.edu.vn](http://ccah.edu.vn).
+This WinForms C# application is developed for managing the internal operations of IRT Institute (Main Office: 93 Tan Ky Tan Quy, Tan Son Nhi Ward, Tan Phu District, Ho Chi Minh City).
+
+The software utilizes a C# Windows Forms interface, SQL Server for data storage, and communicates with a back-end Web API (ccah-web-api). Additionally, IRT also operates a separate product introduction website at ccah.edu.vn.
 
 ---
 
